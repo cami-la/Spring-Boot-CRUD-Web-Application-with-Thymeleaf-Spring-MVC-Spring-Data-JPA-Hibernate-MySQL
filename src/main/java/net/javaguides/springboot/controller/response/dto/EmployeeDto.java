@@ -14,14 +14,14 @@ import java.util.stream.Collectors;
 public class EmployeeDto {
 
     private Long id;
-    private String first_nome;
-    private String last_name;
+    private String firstName;
+    private String lastName;
     private String email;
 
     public EmployeeDto(Employee employee) {
         this.id = employee.getId();
-        this.first_nome = employee.getFirstName();
-        this.last_name = employee.getLasName();
+        this.firstName = employee.getFirstName();
+        this.lastName = employee.getLasName();
         this.email = employee.getEmail();
     }
 
